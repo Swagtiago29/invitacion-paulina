@@ -1,6 +1,6 @@
 import Image2 from '../../assets/images/60de235.jpg';
 import MusicPlayer from './musicplayer/MusicPlayer';
-import Countdown from './Countdown/Countdown';
+import Countdown from './countdown/Countdown';
 import Gallery from './galery/Gallery';
 import foto from '../../assets/images/foto.jpg'
 import foto1 from '../../assets/images/foto1.jpg'
@@ -261,7 +261,7 @@ function Invite() {
                 </p>
             </section>
 
-            <Gallery images={[foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9,
+            <Gallery images={[foto, foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9,
                 foto10, foto11, foto12, foto13, foto14
             ]} />
 
