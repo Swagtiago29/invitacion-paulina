@@ -1,0 +1,35 @@
+
+.envelope-jitter {
+    animation: envelopeWiggle 1.2s ease-in-out infinite;
+    transform-origin: center center;
+}
+
+@keyframes envelopeWiggle {
+    0%, 100% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    15% {
+        transform: translateX(-3px) rotate(-1deg);
+    }
+
+    30% {
+        transform: translateX(3px) rotate(1deg);
+    }
+
+    45% {
+        transform: translateX(-3px) rotate(-0.8deg);
+    }
+
+    60% {
+        transform: translateX(3px) rotate(0.8deg);
+    }
+
+    75% {
+        transform: translateX(-1.5px) rotate(-0.4deg);
+    }
+
+    90% {
+        transform: translateX(1.5px) rotate(0.4deg);
+    }
+}
